@@ -103,7 +103,13 @@ namespace HomeBuyer
                     case 2:
                     Pass();
                     break;
-    
+
+                    case 3:
+                    EndGame();
+                    break;
+
+                    default:
+                        break;
                 }
             }
 
@@ -133,14 +139,21 @@ namespace HomeBuyer
 
                 //get the new credibility points of agent
                  Console.WriteLine($"{agent.Name}'s crediblity points are {agent.Credibility} and {buyer.Name}'s budget is {buyer.Budget}");
+
+            if (agent.Credibility == 0) { EndGame(); }
              }
 
             private void EndGame()
             {
                 var agent = _agentRepo.AgentDetails();
                 var buyer = _buyerRepo.BuyerDetails();
-                Console.WriteLine($"{agent.Name} has lost her creidibility with {buyer.Name}. Maybe you should find another agent?");
+                var credibility = _agentRepo.Credibility();
+
+                if (credibility == 0){ 
+                    Console.WriteLine($"{agent.Name} has lost her credibility with {buyer.Name}. Maybe you should find another agent?");
+                };
             }
+
 
     }
 }

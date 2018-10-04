@@ -42,5 +42,10 @@ namespace HomeBuyer
         {
             _agent.Credibility = 0;
         }
+
+        public int Credibility()
+        {
+           return 0;
+        }
     }
 }
