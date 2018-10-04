@@ -38,6 +38,9 @@ namespace HomeBuyer
             _agent.Credibility -= passDamage;
         }
 
-
+        public void EndGame()
+        {
+            _agent.Credibility = 0;
+        }
     }
 }

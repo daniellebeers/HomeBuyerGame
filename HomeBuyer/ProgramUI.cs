@@ -135,6 +135,13 @@ namespace HomeBuyer
                  Console.WriteLine($"{agent.Name}'s crediblity points are {agent.Credibility} and {buyer.Name}'s budget is {buyer.Budget}");
              }
 
+            private void EndGame()
+            {
+                var agent = _agentRepo.AgentDetails();
+                var buyer = _buyerRepo.BuyerDetails();
+                Console.WriteLine($"{agent.Name} has lost her creidibility with {buyer.Name}. Maybe you should find another agent?");
+            }
+
     }
 }
 

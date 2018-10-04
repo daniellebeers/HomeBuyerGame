@@ -29,13 +29,18 @@ namespace HomeBuyer
 
 
         public void Tour(int tourPower)
-        {
+         {
             _buyer.Budget -= tourPower;
-        }
+            }
 
         public void Pass(int passPower)
         {
             _buyer.Budget += passPower;
+        }
+
+        public void EndGame()
+        {
+           _buyer.Budget = 0;
         }
     }
 }
