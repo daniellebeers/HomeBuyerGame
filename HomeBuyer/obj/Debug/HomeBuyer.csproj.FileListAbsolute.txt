@@ -1,0 +1,7 @@
+C:\Users\Danielle Reed\source\repos\HomeBuyer\HomeBuyer\obj\Debug\HomeBuyer.csprojAssemblyReference.cache
+C:\Users\Danielle Reed\source\repos\HomeBuyer\HomeBuyer\obj\Debug\HomeBuyer.csproj.CoreCompileInputs.cache
+C:\Users\Danielle Reed\source\repos\HomeBuyer\HomeBuyer\bin\Debug\HomeBuyer.exe.config
+C:\Users\Danielle Reed\source\repos\HomeBuyer\HomeBuyer\bin\Debug\HomeBuyer.exe
+C:\Users\Danielle Reed\source\repos\HomeBuyer\HomeBuyer\bin\Debug\HomeBuyer.pdb
+C:\Users\Danielle Reed\source\repos\HomeBuyer\HomeBuyer\obj\Debug\HomeBuyer.exe
+C:\Users\Danielle Reed\source\repos\HomeBuyer\HomeBuyer\obj\Debug\HomeBuyer.pdb
